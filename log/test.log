@@ -747,6 +747,7 @@ Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mAuthor Load (0.2ms)[0m  SELECT "authors".* FROM "authors"
   [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+<<<<<<< HEAD
   [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
   [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "authors" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Stephen King"], ["created_at", "2018-10-30 16:52:26.042724"], ["updated_at", "2018-10-30 16:52:26.042724"]]
   [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
@@ -786,3 +787,5 @@ Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
   [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts" WHERE (created_at <'2018-10-30 00:00:00.000000')[0m
   [1m[35m (0.3ms)[0m  rollback transaction
+=======
+>>>>>>> 2a274a6f676f0c5976e13908defaa29f09ea8052
